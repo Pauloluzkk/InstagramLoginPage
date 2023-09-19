@@ -13,6 +13,10 @@
 body{
 	background: #fafafa;
 	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
 }
 
 .wrapper .header{
@@ -25,9 +29,9 @@ body{
 .wrapper .header .top,
 .wrapper .signup{
 	background: #fff;
-    border: 1px solid #e6e6e6;
-    border-radius: 1px;
-    padding: 40px 40px 20px;
+	border: 1px solid #e6e6e6;
+	border-radius: 1px;
+	padding: 40px 40px 20px;
 }
 
 .wrapper .header .logo img{
@@ -56,15 +60,10 @@ body{
 .wrapper .header .form .btn{
 	margin: 10px 0;
 	background-color: #3897f0;
-    border: 1px solid #3897f0;
-    border-radius: 4px;
-    text-align: center;
-    padding: 5px;
-}
-
-.wrapper .header .form .btn a{
-	color: #fff;
-	display: block;
+	border: 1px solid #3897f0;
+	border-radius: 4px;
+	text-align: center;
+	padding: 5px;
 }
 
 .wrapper .header .or{
@@ -78,7 +77,7 @@ body{
 .wrapper .header .or .line{
 	width: 105px;
 	height: 2px;
-	background: #efefef
+	background: #efefef;
 }
 
 .wrapper .header .or p{
@@ -97,7 +96,7 @@ body{
 	height: 16px;
 }
 
-.wrapper .dif  .fb p{
+.wrapper .dif .fb p{
 	color: #385185;
 	font-weight: 500;
 	margin-left: 10px;
@@ -110,7 +109,7 @@ body{
 }
 
 .wrapper .dif .forgot a{
-	color: #003569;
+	color: #003569
 }
 
 .wrapper .signup{
@@ -118,6 +117,9 @@ body{
 	padding: 25px 40px;
 	text-align: center;
 	color: #262626;
+}
+.wrapper .header .celular img{
+	align-items: center;
 }
 
 .wrapper .signup a{
@@ -151,16 +153,22 @@ body{
 .footer .links ul li{
 	display: inline-block;
 	margin-right: 10px;
+	
 }
 
 .footer .links ul li a{
-	color: #003569;
+	color: #737373;
 	font-size: 12px;
+	
 }
 
 .footer .copyright{
 	color: #999;	
 }
-.imagem-do-celular{
-	align-items: center;
+
+.imagens{
+	width: 150px;
+	height: auto;
+	margin-left: 200px;
+	margin-top: 0px;
 }
